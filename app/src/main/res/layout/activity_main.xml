@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Beauty of Bangladeh"
+           android:textSize="40sp"
+           android:textColor="#F08080"
+           android:textAlignment="center"
+           android:layout_margin="10dp"
+
+/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/nature"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Bangladesh has been aptly described as a new state in an ancient land. Much has been written about the past glory of Bangladesh, notably in old records like the evidence of Pliny and Periplus of the Erythrean Sea (first century AD). It was drawn in Ptolemy's map. These indicate that from the earliest times Bangladesh was known to the West, particularly for its Muslin, the finest fabric the world has ever produced. Travellers and scholars who were attracted by the charms and fame of Bangladesh since time immemorial had showered effusive epithets on its bounties and wealth, affluence and prosperity, craftsmanship and cultural advancement."
+
+/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Click here to know more"
+/>
+</LinearLayout>
